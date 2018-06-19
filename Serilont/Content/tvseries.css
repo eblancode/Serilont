@@ -1,0 +1,64 @@
+﻿.rating-star-block .star.outline {
+    background: url("../imatges/stars/star-empty-lg.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.rating-star-block .star.waiting {
+    background: url("../imatges/stars/star-empty-lg.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.rating-star-block .star.filled {
+    background: url("../imatges/stars/star-fill-lg.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.rating-star-block .star {
+    color:rgba(0,0,0,0);
+    display : inline-block;
+    height:24px;
+    overflow:hidden;
+    text-indent:-999em;
+    width:24px;
+}
+.stars {
+    margin-left: 30px;  
+    margin-bottom: 10px;
+}
+.row.vdivide [class*='col-']:not(:last-child):after {
+    background: #e0e0e0;
+    width: 1px;
+    content: "";
+    display:block;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    right: 0;
+    min-height: 70px;
+}
+
+#divSearch {
+    margin-top:0px;
+}
+
+.caption {
+    text-align: center;
+}
+
+.serieImg {
+    padding-left: 15px;
+}
+
+.glyphicon.glyphicon-eye-open {
+    font-size: 25px;
+}
+
+.glyphicon.glyphicon-eye-close {
+    font-size: 25px;
+}
+
+.labelRating {
+    margin-left: 50px;
+}
+
+#ContentPlaceHolderContingut_btnRating {
+    margin-left: 20px;
+}
+
+#ContentPlaceHolderContingut_LabelRatingUser {
+    padding-left: 10px;
+}

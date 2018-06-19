@@ -1,0 +1,56 @@
+﻿.centered {
+    text-align: center;
+    font-size: 0;
+}
+.centered > div {
+    float: none;
+    display: inline-block;
+    text-align: left;
+    font-size: 13px;
+    margin-bottom: 100px;
+}
+
+.card-header, .card-footer {
+    text-align: center;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.button {
+    height: 60px;
+    padding: 10px 20px;
+    font-size: 18.75px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    background: linear-gradient(to top right, #375a7f, #28415b);
+}
+
+.button:hover {background: linear-gradient(to top right, #28415b, #375a7f);}
+
+.menuRow {
+    margin-bottom: -50px;
+}
+
+h3 {
+    text-align:center;
+}
+
+
+/*TopRated + MostPopulars*/
+
+
+/*img {
+    width: 300px;
+    height: 450px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}*/

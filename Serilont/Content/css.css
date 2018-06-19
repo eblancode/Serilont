@@ -1,0 +1,87 @@
+html {
+    overflow-x: hidden;
+}
+
+body {
+    min-height:100%;
+    /*height: auto !important;*/
+    height: 100% !important;
+    /* Negative indent footer by it's height */
+    margin: 0 auto -60px;
+	margin-left:25px;
+	margin-right:25px;
+}
+
+#row {
+    max-height: 100%;
+}
+
+.primerPanel{
+    margin-top:100px;
+}
+
+.labelsError {
+    display:inline-block;
+    margin-left:10px;
+    color:red;
+}
+
+.logo {
+    margin-top: 5px;
+    margin-right: 17px;
+}
+
+.profileImageMiniature {
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.titolserie {
+    text-align: center;
+    border-top: 20px;
+}
+
+/*Index carousel*/
+.indexCarousel .item img {
+  width: 1700px;
+  height: 450px;
+  max-height: 600px;
+  margin: 0 auto;
+}
+
+.col-center-block {
+    float: none;
+    display: block;
+    margin: 0 auto;
+}
+
+footer .list-info {
+    list-style-type: none;
+    overflow: hidden;
+    padding-left: 0;
+}
+
+footer .list-unstyled {
+    list-style-type: none;
+    overflow: hidden;
+    padding-left: 0;
+    position: center;
+}
+
+footer .list-unstyled li {
+    display:inline-block;
+}
+
+footer .list-unstyled li a, .btnSound {
+    display: block;
+    text-align: center;
+    padding-right: 30px;
+}
+
+footer .float-lg-right {
+    float: right !important;
+}
+
+footer .btnSound {
+    visibility: hidden;
+}

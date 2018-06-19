@@ -1,0 +1,21 @@
+﻿.rating-star-block .star.outline {
+    background: url("../imatges/stars/star-empty-lg.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.rating-star-block .star.waiting {
+    background: url("../imatges/stars/star-empty-lg.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.rating-star-block .star.filled {
+    background: url("../imatges/stars/star-fill-lg.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.rating-star-block .star {
+    color:rgba(0,0,0,0);
+    display : inline-block;
+    height:24px;
+    overflow:hidden;
+    text-indent:-999em;
+    width:24px;
+}
+.stars {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}

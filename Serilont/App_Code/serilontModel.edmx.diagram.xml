@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="3b193248fb4d4a67bd4546ecabba3393" Name="Diagram1">
+        <EntityTypeShape EntityType="serilontModel.Generes" Width="1.5" PointX="7.25" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="serilontModel.Series" Width="1.5" PointX="4.625" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="serilontModel.Usuaris" Width="1.5" PointX="1" PointY="4.375" IsExpanded="true" />
+        <AssociationConnector Association="serilontModel.Segueixen" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="serilontModel.Puntuacions" Width="1.5" PointX="1" PointY="1.25" />
+        <AssociationConnector Association="serilontModel.FK__Puntuacions__Series" />
+        <AssociationConnector Association="serilontModel.FK_Puntuacions_Usuaris" />
+        </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

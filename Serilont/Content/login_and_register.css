@@ -1,0 +1,46 @@
+﻿html, body{
+    height: 100%;
+    margin: 0;
+}
+
+.bkground {
+    min-height: 100%;
+    background-image: url('../imatges/background/login.jpg');
+    background-size: cover;
+}
+
+.logo {
+    margin-left: 15px;
+}
+
+#pnlModal {
+    margin-top: 75px;
+}
+
+#pnlRegister {
+    display: inline-block !important;
+    position: absolute;
+    z-index: 1;
+    margin-top: 75px;
+    margin-right: 300px;
+    margin-left: 300px;
+    /*width: -webkit-fit-content;
+    height: -webkit-fit-content;
+    width: -moz-fit-content;
+    height: -moz-fit-content;*/
+}
+
+.regContent {
+    background-color: rgba(48, 48, 48, 0.9);
+    padding: 20px;
+}
+
+.modal-content {
+    background-color: rgba(48, 48, 48, 0.9);
+}
+
+.labelsError {
+    display: inline-block;
+    margin-left: 30px;
+    color: red;
+}
